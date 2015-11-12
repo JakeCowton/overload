@@ -9,5 +9,5 @@ for site in sites:
 	try:
 		requests.get("http://%s" % site.strip('\n'))
 	except:
-		print site.strip('\n')
+		pass
 
